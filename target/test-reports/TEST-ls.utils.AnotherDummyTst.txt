@@ -1,0 +1,9 @@
+Testsuite: ls.utils.AnotherDummyTst
+Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0,046 sec
+
+Testcase: test1 took 0,012 sec
+	FAILED
+
+junit.framework.AssertionFailedError: 
+	at ls.utils.AnotherDummyTst.test1(AnotherDummyTst.java)
+
