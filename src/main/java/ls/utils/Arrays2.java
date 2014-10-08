@@ -2,7 +2,7 @@ package ls.utils;
 
 public class Arrays2 {
     
-	
+	//Binary Search
     public static int indexOfLowerBound(int[] a, int n) {
     	
     	int beginIndex = 0;
@@ -10,7 +10,7 @@ public class Arrays2 {
     	int mid;
     	
     	while( beginIndex < endIndex ){
-    		mid = endIndex + beginIndex / 2;
+    		mid = (endIndex + beginIndex) / 2;
     		if( n > a[mid] ) beginIndex = mid + 1;
     		else endIndex = mid - 1;
     	}

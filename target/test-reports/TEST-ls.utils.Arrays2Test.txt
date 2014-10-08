@@ -1,5 +1,5 @@
 Testsuite: ls.utils.Arrays2Test
-Tests run: 3, Failures: 0, Errors: 2, Time elapsed: 0,056 sec
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0,085 sec
 
 Testcase: indexOfLowerBound_one_value took 0,018 sec
 	Caused an ERROR
